@@ -23,3 +23,6 @@ Qradar has  e-mail template option for event or flow rules, but there is no opti
 
 ![ss1](https://user-images.githubusercontent.com/1064270/54766956-4789a680-4c0d-11e9-8f4b-812082c50519.png)
 *Formatted offense rule email with `risky` prefix*
+
+Scripts are not official IBM solutions. IBM highlights [Modified (YUM) is not supported through all other installations of non-QRadar software modules, RPMs, or Yellowdog Updater](https://www-01.ibm.com/support/docview.wss?uid=swg21991208). Use at your own risk.
+
