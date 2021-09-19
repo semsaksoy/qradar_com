@@ -1,0 +1,20 @@
+# com.service
+[Unit]
+Description= IBM Security Services TURKEY Custom Offense Mailer
+Requires=httpd.service
+After=httpd.service
+
+[Service]
+User=root
+Group=root
+WorkingDirectory=/opt/com/
+Restart=always
+ExecStart=/usr/bin/ruby /opt/com/main.rb
+StandardOutput=syslog
+StandardError=syslog
+SyslogFacility=local0
+SyslogLevel=warning
+
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,29 @@
+{
+  "control_frequency": 1,
+  "security_token": "key-key",
+  "api_version": "8.1",
+  "host": "https://127.0.0.1",
+  "url_host": "https://ip",
+  "sender": "",
+  "subject": "New Offense Created",
+  "risk_magnitude": 5,
+  "event_count": 20,
+  "domains": {
+    "Default Domain": {
+      "receiver": [
+        "semsaksoy@gmail.com",
+        "guchan.celik@ibm.com",
+        "sems@tr.ibm.com",
+        "yusuf.kus@ibm.com",
+        "serhat.bakir@ibm.com"
+      ]
+    },
+    "OTHER": {
+      "receiver": [
+        "yusuf.kus@ibm.com",
+        "sems@tr.ibm.com",
+        "asm@example.com"
+      ]
+    }
+  }
+}
