@@ -9,8 +9,6 @@ class OffenseController
       o.get_event_description
       o.render
     end
-
-    #print "bitti"
   end
 
   def self.turkce(ing)
