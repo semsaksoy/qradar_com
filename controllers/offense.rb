@@ -1,7 +1,7 @@
 class OffenseController
   def self.action(offense_id)
     thr = Thread.new do
-      sleep 60
+      sleep (Config.global.delay_min * 60)
       o = Offense.new offense_id
       o.get_events
       o.get_first_event
@@ -25,3 +25,4 @@ class OffenseController
     File.read("#{Config.global.root}/last.db").strip
   end
 end
+

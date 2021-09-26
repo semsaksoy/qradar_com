@@ -19,7 +19,7 @@ while true
     print error.message
   end
 
-  sleep Config.global.control_frequency * 60
+  sleep (Config.global.control_frequency * 60)
 end
 
 
