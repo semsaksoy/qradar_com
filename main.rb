@@ -6,8 +6,10 @@ while true
     get_last = OffenseController.get_last
     last = Offense.get_last_offenses(get_last)
 
+    print last
 
     last.each do |oid|
+
       OffenseController.action oid
     end
 

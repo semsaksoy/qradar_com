@@ -124,8 +124,10 @@ echo 'Content-Type: text/html'
 echo;
 echo '#{content}' ) | sendmail -t"
     begin
-      #print komut
-      `#{komut}`
+      print id,"\n"
+      print komut
+      #`#{komut}`
+
     rescue
       print "mail error"
     end

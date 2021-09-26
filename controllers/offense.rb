@@ -1,14 +1,19 @@
 class OffenseController
   def self.action(offense_id)
-    thr = Thread.new do
+    print offense_id
+
+    Thread.new do
+      print "bekliyor", offense_id
       sleep (Config.global.delay_min * 60)
       o = Offense.new offense_id
       o.get_events
       o.get_first_event
       o.get_event_description
       o.render
+      print "bitti", offense_id
     end
-    thr.join
+
+    #print "bitti"
   end
 
   def self.turkce(ing)
