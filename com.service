@@ -1,7 +1,6 @@
 # com.service
 [Unit]
 Description= IBM Security Services TURKEY Custom Offense Mailer
-Requires=httpd.service
 After=httpd.service
 
 [Service]

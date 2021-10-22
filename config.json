@@ -1,28 +1,25 @@
 {
   "control_frequency": 1,
-  "security_token": "key-key",
+  "security_token": "2a83d60c-c212-469d-817f-0ca5ffebc8eb",
   "api_version": "8.1",
-  "host": "https://127.0.0.1",
-  "url_host": "https://ip",
+  "host": "https://ag.qr",
+  "url_host": "https://ag.qr",
   "sender": "",
   "subject": "New Offense Created",
   "risk_magnitude": 5,
   "event_count": 20,
+  "delay_min": 5,
   "domains": {
     "Default Domain": {
       "receiver": [
-        "semsaksoy@gmail.com",
-        "guchan.celik@ibm.com",
-        "sems@tr.ibm.com",
-        "yusuf.kus@ibm.com",
-        "serhat.bakir@ibm.com"
+        "semsaksoy@gmail.com"
       ]
     },
     "OTHER": {
       "receiver": [
-        "yusuf.kus@ibm.com",
-        "sems@tr.ibm.com",
-        "asm@example.com"
+
+        "sems@tr.ibm.com"
+
       ]
     }
   }
